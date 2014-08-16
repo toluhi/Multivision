@@ -1,0 +1,20 @@
+{
+  "name": "Multivision",
+  "version": "0.0.0",
+  "authors": [
+    "toluhi <toluhi@yahoo.com>"
+  ],
+  "description": "Plural sights tutorial",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.2.22",
+    "angular-resource": "~1.2.22",
+    "angular-route": "~1.2.22",
+    "toastr": "~2.0.3",
+    "jquery": "~2.1.1"
+  }
+}
