@@ -1,5 +1,13 @@
 //
    Created by yemi-t on 16/08/2014.
 
-h1 This is a partial
-h2 {{ myVar }}
+.container
+    .jumbotron
+        h1 MultiVision
+        p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus congue vehicula risus nec pretium. Quisque pharetra velit odio. Aliquam lacinia dapibus placerat. Nulla commodo laoreet lectus, ac consequat lectus convallis in. Donec congue quis urna ut blandit. Nullam aliquam, lacus in facilisis elementum, erat tellus condimentum urna, sed aliquam mi tortor vel nunc. Mauris ut tempus orci. Pellentesque consequat ligula eget nibh porttitor, ac hendrerit tortor vestibulum. Nunc vel consectetur purus, fermentum cursus tortor.
+
+    .row
+        .col-md-6
+            div(ng-include="'/partials/featured-courses'")
+        .col-md-6
+            div(ng-include="'/partials/new-courses'")
